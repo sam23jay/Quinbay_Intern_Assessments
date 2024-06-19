@@ -1,0 +1,4 @@
+ID: 3,Quantity: 11, Price: 253.0
+ID: 3,Quantity: 1, Price: 23.0
+ID: 1,Quantity: 8, Price: 8.000801912E9
+ID: 3,Quantity: 0, Price: 0.0

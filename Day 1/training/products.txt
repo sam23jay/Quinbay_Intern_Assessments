@@ -1,0 +1,4 @@
+ID: 0,Name: prod1,Price: 10.0,Stock: 2,Deleted: true
+ID: 1,Name: prod2,Price: 1.000100239E9,Stock: 213,Deleted: false
+ID: 2,Name: prod3,Price: 21.0,Stock: 12,Deleted: false
+ID: 3,Name: prod3,Price: 23.0,Stock: 0,Deleted: false
