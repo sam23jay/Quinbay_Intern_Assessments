@@ -1,0 +1,9 @@
+ID: 1, Name: sam, Price: 23.0, Stock: 0, Deleted: true
+ID: 2, Name: dan, Price: 2321.0, Stock: 23, Deleted: false
+ID: 2, Name: sm, Price: 21.0, Stock: 32, Deleted: false
+ID: 3, Name: s, Price: 23.0, Stock: 213, Deleted: false
+ID: 4, Name: sa, Price: 123.0, Stock: 1, Deleted: false
+ID: 5, Name: sam, Price: 321.0, Stock: 213, Deleted: false
+ID: 6, Name: sda, Price: 213.0, Stock: 213, Deleted: false
+ID: 7, Name: prod1, Price: 23.0, Stock: 123, Deleted: false
+ID: 8, Name: ssa, Price: 32131.0, Stock: 21354, Deleted: false
