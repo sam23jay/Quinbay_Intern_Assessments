@@ -1,0 +1,9 @@
+Product ID: 1, Quantity: 22, Total Price: 506.0
+Product ID: 2, Quantity: 23, Total Price: 529.0
+Product ID: 1, Quantity: 2, Total Price: 46.0
+Product ID: 2, Quantity: 2, Total Price: 46.0
+Product ID: 2, Quantity: 412, Total Price: 9476.0
+Product ID: 2, Quantity: 1, Total Price: 2321.0
+Product ID: 2, Quantity: 2, Total Price: 4642.0
+Product ID: 2, Quantity: 2, Total Price: 4642.0
+Product ID: 2, Quantity: 2, Total Price: 4642.0
