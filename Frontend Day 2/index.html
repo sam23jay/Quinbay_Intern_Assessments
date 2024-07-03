@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="company-name">Inventory Management</div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search products..." />
+        <span class="clear-search" id="clear-search">✕</span>
+      </div>
+      <div class="auth-buttons">
+        <div class="cart-icon" id="cart-icon">🛒</div>
+        <button class="login">Login</button>
+        <button class="signup">Sign Up</button>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon">☰</div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <section class="add-section">
+        <h1>Add Product</h1>
+        <form id="product-form">
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter Name..."
+          />
+          <label for="brand">Brand: </label>
+          <input
+            type="text"
+            id="brand"
+            name="brand"
+            placeholder="Enter Brand..."
+          />
+          <label for="originalPrice">Original Price: </label>
+          <input
+            type="text"
+            id="originalPrice"
+            name="originalPrice"
+            placeholder="Enter Original Price..."
+          />
+          <label for="discountPrice">Discounted Price: </label>
+          <input
+            type="text"
+            id="discountPrice"
+            name="discountPrice"
+            placeholder="Enter Discounted Price..."
+          />
+          <label for="stock">Stock: </label>
+          <input
+            type="text"
+            id="stock"
+            name="stock"
+            placeholder="Enter Stock..."
+          />
+          <label for="Category">Category: </label>
+          <select id="Category" name="Category">
+            <option value="Electronics">Electronics</option>
+            <option value="Footwear">Footwear</option>
+            <option value="Clothing">Clothing</option>
+          </select>
+          <label for="Seller">Seller: </label>
+          <select id="Seller" name="Seller">
+            <option value="Apple">Apple</option>
+            <option value="Nike">Nike</option>
+            <option value="Samsung">Samsung</option>
+          </select>
+          <button type="submit">Add</button>
+        </form>
+      </section>
+
+      <section class="product-section-wrapper">
+        <section class="filters">
+          <input type="checkbox" id="availability" name="availability" />
+          <label for="availability">Available</label>
+          <input type="number" id="minPrice" placeholder="Min Price" />
+          <input type="number" id="maxPrice" placeholder="Max Price" />
+          <button id="applyFilters">Apply Filters</button>
+          <button id="resetFilters">Reset Filters</button>
+        </section>
+        <section class="product-section" id="product-list"></section>
+      </section>
+    </div>
+    <footer>&copy; 2024 Your Corporation. All rights reserved.</footer>
+
+    <div id="cart-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close-cart-modal">&times;</span>
+        <h2>Cart Items</h2>
+        <div id="cart-items"></div>
+        <button id="checkout-button">Checkout</button>
+      </div>
+    </div>
+  </body>
+</html>
