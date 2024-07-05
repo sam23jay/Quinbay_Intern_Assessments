@@ -1,0 +1,87 @@
+.add-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 25%;
+  padding: 2%;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  position: sticky;
+  top: 90px;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    label {
+      align-self: flex-start;
+      margin-left: 10%;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    input,
+    select {
+      padding: 10px;
+      margin-bottom: 20px;
+      width: 80%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      color: white;
+      background-color: rgb(28, 75, 246);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: rgb(69, 109, 255);
+      }
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .add-section {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  .add-section {
+    margin-left: 25%;
+    max-width: 35%;
+  }
+}
+
+@media (max-width: 768px) {
+  .add-section {
+    align-items: center;
+    margin-left: 25%;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
